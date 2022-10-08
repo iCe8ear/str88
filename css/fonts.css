@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'RobotoR';
+    src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoB';
+    src: url(../fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RalewayT';
+    src: url(../fonts/Raleway-Thin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RalewayR';
+    src: url(../fonts/Raleway-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RalewayB';
+    src: url(../fonts/Raleway-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RalewayBlack';
+    src: url(../fonts/Raleway-Black.ttf) format('truetype');
+}
+
+
+
+
+
+
+
+

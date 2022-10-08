@@ -1,0 +1,271 @@
+@import url(../css/fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #0C0C0C;
+}
+
+.container{
+    max-width: 1110px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.headline__nav{
+    padding: 18px 0;
+    background: #0C0C0C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__img{
+    margin-right: 5px;
+}
+
+.headline__title{
+    font-family: 'RobotoR';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-right: 691px;
+}
+
+.headline__menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav__link{
+    font-family: 'RobotoR';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.str88{
+    background: #0C0C0C;
+    border: 1px solid rgba(125, 115, 115, 0.5);
+    backdrop-filter: blur(7.5px);
+}
+
+.str__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+}
+
+.str__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.str__link{
+    font-family: 'RalewayR';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 22px 14px;
+}
+
+.str__link:hover{
+    padding: 22px 14px;
+    background: rgba(105, 207, 23, 0.75);
+}
+
+.banner{
+    background: url(../img/food-burger-wallpaper-preview\ 1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 48px;
+}
+
+.banner__wrap{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.banner__tht{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.banner__title{
+    color: rgba(105, 207, 23, 1);
+    font-family: 'RalewayBlack';
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 85px;
+}
+
+.banner__h4{
+    color: rgba(105, 207, 23, 1);
+    font-family: 'RalewayR';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.banner__text{
+    color: #FFFFFF;
+    font-family: 'RalewayR';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.banner__pb{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 570px;
+}
+
+.banner__price{
+    font-family: 'RalewayT';
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: rgba(105, 207, 23, 0.5);
+    backdrop-filter: blur(9px);
+    padding: 33px 76px;
+}
+
+.banner__btn{
+    font-family: 'RalewayR';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 15px 71px;
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+    border-radius: 6px;
+}
+
+.banner__btn:hover{
+    transform: scale(1.1);
+}
+
+.about__us{
+    margin: 0 auto;
+    max-width: 1110px;
+    width: 100%;
+    height: 100%;
+}
+
+.about__wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.info__text{
+    font-family: 'RalewayB';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 1);
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.loc__sec{
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 669px;
+}
+
+.loc__title{
+    font-family: 'RalewayB';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+    color: rgba(105, 207, 23, 1);
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__wrap{
+    background: linear-gradient(180deg, #000000 0%, rgba(105, 207, 23, 0.5) 100%);
+    padding: 30px 245px 81px;
+}
+
+.logo__foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 725px;
+    margin-bottom: 81px;
+}
+
+.number{
+    font-family: 'RobotoB';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__link{
+    font-family: 'RobotoR';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer__end{
+    background: #1A3406;
+    padding: 19px 628px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end__text{
+    font-family: 'RobotoR';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 1);
+}
